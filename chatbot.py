@@ -9,7 +9,7 @@ from common.utils import init_chatbot
 init_chatbot()
 
 # 화면 제목
-st.title("Chat Bot")
+st.title("업데이트 된 ChatBot 이에요!")
 
 # 저장한 메세지를 화면에 표현 
 for message in st.session_state.messages:
